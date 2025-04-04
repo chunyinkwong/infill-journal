@@ -122,9 +122,9 @@ Initially, I had 2 concerns.
 1. Will I accidentally fry the mainboard (SKR mini E3) and components connected to it?
 2. Will 140W be enough to heat a bed? (TriangleLAB 24V PRUSA i3 MK3 MK3S, which is 250x210mm)
 
-To address the voltage issue on the mainboard, I looked into the (SKR mini E3 schematic)[https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/blob/master/hardware/BTT%20SKR%20MINI%20E3%20V3.0/Hardware/BTT%20E3%20SKR%20MINI%20V3.0_SCH.pdf]. After consulting with someone who knows what they're doing, they told me to look at the VBB line after the DC input and the fuse. The components connected to the VBB line are
-1. (MP1584EN)[https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP1584EN-LF-Z/document_id/204/], a DC-DC 5V converter, used to power the CPU and 5V output for the RPI, which is rated up to 28V.
-2. (TMC2209)[https://www.analog.com/en/products/tmc2209.html], the stepper motor driver, which is rated for up to 29V.
+To address the voltage issue on the mainboard, I looked into the [SKR mini E3 schematic](https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/blob/master/hardware/BTT%20SKR%20MINI%20E3%20V3.0/Hardware/BTT%20E3%20SKR%20MINI%20V3.0_SCH.pdf). After consulting with someone who knows what they're doing, they told me to look at the VBB line after the DC input and the fuse. The components connected to the VBB line are
+1. [MP1584EN](https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP1584EN-LF-Z/document_id/204/), a DC-DC 5V converter, used to power the CPU and 5V output for the RPI, which is rated up to 28V.
+2. [TMC2209](https://www.analog.com/en/products/tmc2209.html), the stepper motor driver, which is rated for up to 29V.
 3. Extruder heater and bed heater. These are just resistors with no sensitive electronics, so they follow Ohm's law etc, so P = V^2/R, so they won't die or anything, just consume more power
 4. Fan headers and LED headers. It should be fine to run a 24V fan on 28V, it's 17% over the rated voltage but it's just a motor. I don't plan to use the LED headers, but there are 28V LEDs available for purchase (unlike fans)
 
