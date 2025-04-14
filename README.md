@@ -27,48 +27,49 @@ Notes:
 
 # BOM
 
-Part	Qty
-2040 300 Aluminum extrusions	2
-2020 400 Aluminum extrusions	2
-2020 340 Aluminum extrusions	4
-	
-MGN12 Linear Rails 300mm + Carriage	3
-M3x8 Screws	30
-	
-15mm Diameter Flanged Ball Bearings	16
-1mm Washers	6
-	
-Open timing belts 6mm, 2mm, 800mm	2
-Open timing belts 6mm, 2mm, 400mm	1
-Belt tensioners	6
-Limit switches	3
-NEMA17 Stepper Motors	3
-GT2 Pulleys 20 tooth	3
-	
-Sherpa Mini	1
-E3D v6 Clone	1
-4010 fans	2
-	
-SKR Mini v3 Mainboard	1
-Raspberry Pi 4B	1
-USB PD 140W Sink Board	1
-USB C 140W charger	1
-Piece of wood (to screw electronics on)	1
-	
-Heated bed 220x200mm 	1
-PEI Sheet	1
-Magnets	4
-Piece of wood (to hold the bed to carriage)	1
-6mm Spacers	4
-	
-M5x16 captive screws	4
-M3x30 screws	12
-M3x12 screws	20
-M5x40 screws	4
-M5x10 screws	20
-
-24AWG wires  1m
-Wire connectors  3
+| Part                                        | Qty | Unit Price (RMB) | Final Price (USD) |
+| ------------------------------------------- | --- | ---------------- | ----------------- |
+| 2040 300 Aluminum extrusions                | 2   | 20.18            | 5.65              |
+| 2020 400 Aluminum extrusions                | 2   | 12.50            | 3.50              |
+| 2020 340 Aluminum extrusions                | 4   | 30.29            | 16.96             |
+|                                             |     |                  |                   |
+| MGN12 Linear Rails 300mm + Carriage         | 3   | 73.00            | 30.66             |
+| M3x8 Screws                                 | 30  | 0.50             | 2.10              |
+|                                             |     |                  |                   |
+| 15mm Diameter Flanged Ball Bearings         | 16  | 1.50             | 3.36              |
+| 1mm Washers                                 | 6   | 0.00             | 0.00              |
+|                                             |     |                  |                   |
+| Open timing belts 6mm, 2mm, 800mm           | 2   | 20.50            | 5.74              |
+| Open timing belts 6mm, 2mm, 400mm           | 1   | 20.50            | 2.87              |
+| Belt tensioners                             | 6   | 0.00             | 0.00              |
+| Limit switches                              | 3   | 2.76             | 1.16              |
+| NEMA17 Stepper Motors                       | 3   | 39.00            | 16.38             |
+| GT2 Pulleys 20 tooth                        | 3   | 0.00             | 0.00              |
+|                                             |     |                  |                   |
+| Sherpa Mini                                 | 1   | 129.00           | 18.06             |
+| E3D v6 Clone                                | 1   | 13.00            | 1.82              |
+| 4010 fans                                   | 2   | 15.98            | 4.47              |
+|                                             |     |                  |                   |
+| SKR Mini v3 Mainboard                       | 1   | 358.00           | 50.12             |
+| Raspberry Pi 4B                             | 1   | 0.00             | 0.00              |
+| USB PD 140W Sink Board                      | 1   |                  | 4.38              |
+| USB C 140W charger                          | 1   | 0.00             | 0.00              |
+| Piece of wood (to screw electronics on)     | 1   | 0.00             | 0.00              |
+|                                             |     |                  |                   |
+| Heated bed 220x200mm                        | 1   | 55.84            | 7.82              |
+| PEI Sheet                                   | 1   | 44.50            | 6.23              |
+| Magnets                                     | 4   | 0.00             | 0.00              |
+| Piece of wood (to hold the bed to carriage) | 1   | 0.00             | 0.00              |
+| 6mm Spacers                                 | 4   | 0.30             | 0.17              |
+|                                             |     |                  |                   |
+| M5x16 captive screws                        | 4   |                  | 4.25              |
+| M3x30 screws                                | 12  | 0.50             | 0.84              |
+| M3x12 screws                                | 20  | 0.50             | 1.40              |
+| M5x40 screws                                | 4   | 0.50             | 0.28              |
+| M5x10 screws                                | 20  | 0.50             | 1.40              |
+| Misc screws (dw cainiao deliver in 2 days)  | 1   | 50.00            | 7.00              |
+|                                             |     |                  |                   |
+| Total                                       |     |                  | 189.62            |
 
 
 # Journal
